@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap link -->
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
+
+
+</head>
+
+<body>
+
+    <!-- main content -->
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand" href="#" style="font-weight: bold;">
+                            DCS
+                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item1">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item2">
+                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item3">
+                            <a class="nav-link active" aria-current="page" href="#testimonals">Testimonals</a>
+                        </li>
+                        <li class="nav-item4">
+                            <a class="nav-link active" aria-current="page" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item5">
+                            <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item6">
+                            <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search" class="d-inline-block align-text-middle">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#staticBackdrop1">Signup</button>
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdrop1Label">Signup</h1>
+
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <input type="password" id="inputPassword5" class="form-control"
+                                                aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelpBlock" class="form-text">
+                                                Your password must be 8-20 characters long, contain letters and numbers,
+                                                and must not contain spaces, special characters, or emoji.
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="inputPassword5" class="form-label">Re-enter password</label>
+                                            <input type="password" id="inputPassword5" class="form-control"
+                                                aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelpBlock" class="form-text">
+                                                Your password must be 8-20 characters long, contain letters and numbers,
+                                                and must not contain spaces, special characters, or emoji.
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Signup</button>
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#staticBackdrop">Login</button>
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <input type="password" id="inputPassword5" class="form-control"
+                                                aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelpBlock" class="form-text">
+                                                Your password must be 8-20 characters long, contain letters and numbers,
+                                                and must not contain spaces, special characters, or emoji.
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </nav>
+
+
+        <div class="content">
+            <h1>The Natural Evolution Of Design</h1>
+            <h2>“We bring craftsmanship back on the building site in an affordable and sustainable way”.</h2>
+            <h5>#Crafting Dreams Into Reality</h5>
+            <div id="btn1"><button>Explore Now</button></div>
+        </div>
+
+    </div>
+
+    <!-- about -->
+    <div class="container" id="about"
+        style="padding-top: 75px; padding-left: 75px; padding-right: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(170, 169, 168); width: 100%; border: none;">
+        <h1 class="text-center">ABOUT</h1>
+        <div class="row" style="margin-top: 70px; margin-bottom: 30px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="wallpaperflare.com_wallpaper (1).jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <p style="line-height: 40px; font-size: 19px;">"DCS, the pioneer in New Digital Craft, seamlessly
+                    integrates additive manufacturing and computational design expertise to craft sustainable building
+                    components. By maintaining control over both design and production, we ensure the highest quality
+                    outcomes. Our offerings include 3D Printed Formworks for tailored Concrete Solutions, Digital Stones
+                    crafted from Low Carbon Concrete, innovative Non-standard Concrete Stairs, Functional Shading &
+                    Light Guiding Facade Elements, Space Dividers, Large Format Screens, bespoke 3D Printed Tiles, and
+                    personalized Art & Architecture solutions."<br>
+                </p>
+                <h3 style="padding-bottom: 23px;">#Crafting Dreams Into Reality</h3>
+                <div id="btn4"><button>Start Exploring</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <!-- main content -->
+
+    <div class="container" id="services"
+        style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px;  background: rgb(100, 97, 93); width: 100%;">
+        <h1 class="text-center">SERVICES</h1>
+        <div class="row" style="margin-top: 70px; margin-bottom: 30px; ">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" id="c">
+                    <img src="wallpaperflare.com_wallpaper (2).jpg" alt="" class="card image-top">
+                    <div class="card-body">
+                        <h3 class="card-titel text-center">3D Model for Skull</h3>
+                        <div id="btn3"><button>View More</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" id="c">
+                    <img src="wallpaperflare.com_wallpaper (3).jpg" alt="" class="card image-top">
+                    <div class="card-body">
+                        <h3 class="card-titel text-center">Watch Holder</h3>
+                        <div id="btn3"><button>View More</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" id="c">
+                    <img src="wallpaperflare.com_wallpaper (4).jpg" alt="" class="card image-top">
+                    <div class="card-body">
+                        <h3 class="card-titel text-center">Key Chains</h3>
+                        <div id="btn3"><button>View More</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" id="c">
+                    <img src="wallpaperflare.com_wallpaper (5).jpg" alt="" class="card image-top">
+                    <div class="card-body">
+                        <h3 class="card-titel text-center">Toy Cars</h3>
+                        <div id="btn3"><button>View More</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- maincontent -->
+
+    <div class="container" id="testimonals"
+        style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(170, 169, 168); width: 100%;">
+        <h1 class="text-center">TESTIMONALS</h1>
+        <div id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p class="quote">"DCS has revolutionized our approach to sustainable building components.
+                                Their
+                                expertise in additive manufacturing and computational design has truly impressed us."
+                            </p>
+                            <p class="author">- John Smith</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p class="quote">"Working with DCS was a game-changer for our architecture firm. Their
+                                bespoke 3D printed tiles added a unique touch to our projects, and their commitment to
+                                sustainability aligns perfectly with our values."</p>
+                            <p class="author">- Emily Johnson</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p class="quote">"I can't recommend DCS enough! Their personalized approach and innovative
+                                solutions have made a significant difference in our projects. Thank you for exceeding
+                                our expectations."</p>
+                            <p class="author">- Michael Davis</p>
+                        </div>
+                    </div>
+                    <!-- Add more testimonials here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div id="team">
+        <h1 class="text-center">TEAM</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="p1.jpg" alt="Team Member 1">
+                        <h3>Trevor</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="p2.jpg" alt="Team Member 1">
+                        <h3>Micheal</h3>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="p4.jpg" alt="Team Member 1">
+                        <h3>Franklin</h3>
+                        <p>Marketing</p>
+                    </div>
+                </div>
+                <!-- Add more team members here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="gallery" style="background: rgb(170, 169, 168);">
+        <h1 class="text-center">GALLERY</h1>
+        <div class="gallery-images">
+            <img src="wallpaperflare.com_wallpaper (9).jpg" alt="Image 1">
+            <img src="wallpaperflare.com_wallpaper (10).jpg" alt="Image 2">
+            <img src="wallpaperflare.com_wallpaper (11).jpg" alt="Image 3">
+            <img src="wallpaperflare.com_wallpaper (6).jpg" alt="Image 1">
+            <img src="wallpaperflare.com_wallpaper (7).jpg" alt="Image 2">
+            <img src="wallpaperflare.com_wallpaper (8).jpg" alt="Image 3">
+            <!-- Add more images here -->
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <h1 class="text-center">DCS</h1>
+        <p class="text-center">Crafting Dreams Into Reality</p>
+        <div class="icons text-center">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong><span>DCS</span></strong>. All Rights Reserved
+        </div>
+        <div class="credite text-center">
+            Designed By K.SRIKAR
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

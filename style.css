@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* navbar top */
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: left;
+    justify-content: left; /* center horizontally */
+}
+
+
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width: 20px;
+    }
+}
+/* navbar top */
+
+/* main content */
+.main-content {
+    width: 100%;
+    height: 90vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: 70%;
+    opacity: 0.8; /* Reduce opacity of the background image */
+    color: white; /* Set font color to white */
+    text-align: center; /* Center align text */
+}
+
+/* Style the button */
+.main-content button {
+    background-color: #139ddd; /* Set button background color */
+    color: white; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 10px; /* Add padding to the button */
+    font-size: 18px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect for smooth hover */
+}
+
+/* Style the button on hover */
+.main-content button:hover {
+    background-color: #1f74b9; /* Change button background color on hover */
+}
+
+
+/* navbar */
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar-nav{
+    margin: auto;
+    
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: rgb(95, 8, 194);
+}
+/* navbar */
+
+/* content */
+.content{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 100px;
+}
+
+.content h2{
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.content h5{
+    font-size: 25px;
+    line-height: 50px;
+    padding-bottom: 40px;
+}
+
+#btn1 button{
+    background-color: rgb(75, 75, 75);
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+#btn1 button:hover{
+    background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 30px;
+    }
+}
+/* content */
+
+/* ABOUT */
+#btn4 button{
+    background-color: rgb(94, 93, 93);
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+#btn4 button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.card {
+    width: 100%;
+    height: 300px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Hide overflow content */
+}
+
+#services {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: rgb(75, 73, 71);
+    width: 100%;
+}
+
+#services h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#services .row {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#services .card {
+    border: none;
+    background-color: transparent;
+    height: 320px;
+}
+
+#services .card-body {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#services .card-title {
+    color: #fff;
+    margin-top: 40px;
+}
+
+#services button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Team Section */
+#team {
+    padding-top: 75px;
+    margin-left: 290px;
+    padding-bottom: 75px;
+    background: rgb(100, 97, 93);
+    width: 69.5%;
+}
+
+#team h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#team .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#team .team-member img {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+#team .team-member h3 {
+    color: #000000;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#team .team-member p {
+    color: #000000;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/* Testimonials Section */
+
+#testimonials .testimonial {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#testimonials .quote {
+    font-style: italic;
+}
+
+#testimonials .author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+#btn3{
+    margin-top: 20px;
+    text-align: center;
+}
+#btn3 button{
+    background: rgb(170, 169, 168);
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 13px;
+}
+#btn3 button:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:895px){
+    #btn3 button{
+        width: 100px;
+    }
+}
+
+/* CSS for Gallery Section */
+#gallery {
+    padding-top: 75px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 75px;
+    background: rgb(131, 127, 121);
+    width: 100%;
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.gallery-images img {
+    width: 400px; /* Adjust as needed */
+    margin: 10px; /* Adjust spacing between images */
+    height: 300px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+/* Footer */
+#footer {
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+}
+
+#footer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.icons i {
+    color: #eee;
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #327ec5;
+}
+
+.copyright,
+.credite {
+    margin-top: 20px;
+    font-size: 14px;
+}
